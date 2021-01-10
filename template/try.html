@@ -1,0 +1,78 @@
+{% extends "layout.html" %}
+{% block content %}
+<style>
+input[type=text] {
+  width: 30%;
+  padding: 1% 1%;
+  margin: 1% 25%;
+  border-radius: 2cm;
+  box-sizing: border-box;
+  
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+label{
+ color: white;
+ font-family: 'Khand', sans-serif;
+ text-align: center;
+}
+form{
+    margin-top: 3%;
+    text-align: center;
+}
+#demo{
+    margin-top: 3%;
+}
+
+</style>
+<div id="UBIK" style="text-align:center"><img class="shadow" src="{{ url_for('static', filename='Logo.jpg')}}",  onmouseover="this.src='{{ url_for('static', filename='UBIK.jpg')}}'" onmouseout="this.src='{{ url_for('static', filename='Logo.jpg')}}'" width="200", alt="logo", onclick="getStr()" "/></div>
+
+<form>
+    <label>Brand</label><br>
+    <input id="Brand" type="text"><br>
+    <label>Product</label><br>
+    <input id="Product" type="text" onkeypress="">
+</form>
+<h2 id="loading" style="display: none;">thinking...</h2>
+
+<p id="demo"></p>
+<script type=text/javascript src="{{
+    url_for('static', filename='jquery-3.5.1.slim.js') }}">
+
+</script>
+<script>
+    
+async function load(url = '', data = {}) {
+    const response = await fetch(url,{
+        method:'POST',
+        mode:'cors',
+        headers: {
+            'Content-Type': 'application/json',
+            'Access-Control-Allow-Origin': '*'
+        },
+        body: JSON.stringify(data)
+    }).then()
+    return response.json()
+}
+async function getStr(){
+    document.getElementById("loading").style.display = "block";
+    p = document.getElementById("Product");
+    b  = document.getElementById("Brand");
+    p.disabled = true;
+    b.disabled = true;
+    document.getElementById("UBIK").onclick = ''
+    await load('https://cors-anywhere.herokuapp.com/http://ads-m.ubikai.org/', {Product: p.value,Brand:b.value}).then(
+        r => {document.getElementById("demo").innerText = r.text;}
+    ).catch(err => {
+        console.log(err)
+    })
+    p.disabled = false;
+    b.disabled = false;
+    document.getElementById("UBIK").onclick = 'getStr()'
+    document.getElementById("loading").style.display = "None"
+    
+
+}
+</script>
+{% endblock %}

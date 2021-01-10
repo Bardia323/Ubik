@@ -1,0 +1,65 @@
+html {
+    font-size: 150%;
+    }
+      body{
+        background-image: linear-gradient(to right, #000000, #000000);
+        border-radius: 0px;
+        border: none;
+        font-style: normal;
+        font-weight: 400;
+        text-decoration: none;
+      }
+      h1{
+        margin-top: 5%;
+        color: #bfbfbf;
+        font-family: 'Khand', sans-serif;
+        
+        text-align: center;
+      }
+      h2{
+        color: #bfbfbf;
+        margin: 0% 15%;
+        font-family: 'Khand', sans-serif;
+        
+        text-align: center;
+      }
+      p{
+        transition: all 1s ease;
+        color: #bfbfbf;
+        margin: 0% 20%;
+        font-family: 'Maitree', serif;
+        
+        text-align: center;
+      }
+    
+      #contact{
+        position: fixed;
+        text-align: center;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        bottom: 10%;
+        right: 0%;
+        left: 0%;
+        }
+        .shadow {
+    
+    -webkit-box-shadow: 0px 0px 4px 4px rgb(26, 26, 26);
+    -moz-box-shadow: 0px 0px 4px 4px rgb(26, 26, 26);
+    box-shadow: 0px 0px 4px 4px rgb(26, 26, 26);
+    
+    }
+    
+    @media screen and (min-width: 360px) {
+    html {
+    font-size: 75%;
+    }
+    }
+    @media only screen and (min-width: 375px) {
+      html {
+    font-size: 80%;
+    }
+    }
+    @media screen and (min-width: 1080px) {
+    html {
+    font-size: 150%;
+    }
+}

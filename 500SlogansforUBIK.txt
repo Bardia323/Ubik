@@ -58,7 +58,6 @@ Slogan:Let's create the best customer experience!
 
 Slogan: I see the world differently.
 
-Slogan:
 Slogan: Use advertising smarter.
  Understanding the value in every brand.
 
@@ -103,7 +102,7 @@ Slogan: Automated online advertising.
 
 Slogan: Changing the world one ad at a time.
 
-Slogan:Vision, scale and custom solutions.
+Slogan: Vision, scale and custom solutions.
 
 Slogan: Ads & UBM Tech.
 
@@ -123,12 +122,9 @@ Slogan: Advertising alongside your brand.
 
 Slogan: Advertisers dreams come true.
 
-Slogan: Advertising creatives everywhere are creating more.<|endoftext|>Convenience. Confidence. A price you can trust.
-Jonathan sees the future, so he doesn't.
-   The news reader in your car.
-Imagine not having to look up a headline.
-   The
-Slogan:Beauty is in the eye of the beholder.
+Slogan: Advertising creatives everywhere are creating more.
+
+Slogan: Beauty is in the eye of the beholder.
 
 Slogan: Ad campaign intelligence.
 
@@ -151,7 +147,7 @@ Slogan: UBIK. The next level.
 
 Slogan: Advertisers <3 UBIK.
 
-Slogan:Get more out of your advertising dollars.
+Slogan: Get more out of your advertising dollars.
 
 Slogan: Productivity beyond imagination.
  Creativity born of ideas.
@@ -264,7 +260,7 @@ Slogan: Artificial intelligence for great advertising.
 Slogan: We break the rules.
  Making advertising work for brands.
 
-Slogan:Your brand will never be the same.
+Slogan: Your brand will never be the same.
 
 Slogan: Automating your marketing.
 
@@ -336,7 +332,7 @@ Slogan: Advertisers with unlimited possibilities.
 
 Slogan: Ads for customers.
 
-Slogan: Nothing - just better.
+Slogan: Just better.
  Creating value through advertising.
 
 Slogan: Unmatched advertising power.
@@ -345,7 +341,7 @@ Slogan: Unmatched advertising power.
 Slogan: Better ROI with creatives you can trust.
  Ads that work.
 
-Slogan:We make it easy to generate, optimize, display, and deliver relevant and effective digital ads.
+Slogan: We make it easy to generate, optimize, display, and deliver relevant and effective digital ads.
 
 Slogan: Connected advertising.
  Empowering advertisers.
@@ -377,10 +373,6 @@ Slogan: Bots that ads.
 Slogan: Advertisers dream.
 
 Slogan: Advertising solutions for living. Real people. Real growth.
-
-Builder: Ad@ware
- Taglines: Ad@ware. Build for maximum ROI.
- We love your brand.
 
 Slogan:Think it through. Create it.
 
