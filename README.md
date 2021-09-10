@@ -1,7 +1,7 @@
 # Ubik Web App v0.1
 
 ## About The Project
-[UBIKAI](https://ubikai.org/) is a new advertising platform built with Artificial Intelligence (AI) inspired by **Philip K. Dick's Ubik**. My goal is to create a system that will be able to generate various flavors of advertisements. 
+[UBIK](https://ubikai.org/) is a new advertising platform built with Artificial Intelligence (AI) inspired by **Philip K. Dick's Ubik**. My goal is to create a system that will be able to generate various flavors of advertisements. 
 
 ## State of Project
 We created a full website with a back-end that will allowed us to input product title and keywords, and receive a Ubik-flavored advertisement. The backend's engine was taken off gcloud due to high google compute cost. In addition to creating the system, we also created a proof of concept self-advertising website to show off the capabilities of our system which you can visit at ubikai.org . 
